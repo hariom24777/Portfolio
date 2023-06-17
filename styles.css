@@ -732,7 +732,7 @@ section {
     margin-top: 1.5rem;
   }
 }
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1432px) and (max-width: 1070px) {
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -755,7 +755,7 @@ section {
     font-size: 4.5rem;
   }
 }
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 800px) {
   .section {
     padding: 7rem 6rem;
   }
@@ -842,6 +842,10 @@ section {
     padding-bottom: 6rem;
   }
   .blogs {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .contact-container {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
